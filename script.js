@@ -38,8 +38,4 @@ if (age > 65){
 } else {
   price;
 }
-
-
-// if (age > 60) {
-//   price = price - discountUnderage;
-// }
+// Gli "else" in questo caso sono solo in aggiunta
