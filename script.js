@@ -14,7 +14,7 @@ const price = price_per_kil * kil;
 console.log ('Prezzo del viaggio senza scontistica',price);
 
 if (age > 18 && age < 65) {
-  document.getElementById ("prezzo").innerHTML += price;
+  document.getElementById ("prezzo").innerHTML += " "+price;
 }
 
 // scontistica under 18
@@ -26,7 +26,7 @@ console.log ('Prezzo scontato under 18', discountUnder_price);
 
 if (age < 18){
   discountUnder_price;
-  document.getElementById ("prezzo").innerHTML += discountUnder_price;
+  document.getElementById ("prezzo").innerHTML +=  " "+discountUnder_price;
 } 
 
 // scontistica over 65
@@ -38,7 +38,7 @@ console.log ('Prezzo scontato over 65', discountOver_price);
 
 if (age > 65){
   discountOver_price;
-  document.getElementById ("prezzo").innerHTML += discountOver_price;
+  document.getElementById ("prezzo").innerHTML += " "+discountOver_price;
 }
 
 
