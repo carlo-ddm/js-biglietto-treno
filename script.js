@@ -3,14 +3,14 @@ console.log ('controllo collegamento html-js');
 const age = (prompt ('Quanti anni hai?'));
 console.log ('Età',age);
 
-const kil = (prompt ('Quanti chilometri percorri?'));
+const km = (prompt ('Quanti chilometri percorri?'));
 console.log ('Chilometri da percorrere',kil);
 
-const price_per_kil = 0.21;
+const price_per_km = 0.21;
 console.log ('Prezzo del viaggio al chilometro',price_per_kil);
 
 // prezzo senza scontistica
-const price = price_per_kil * kil;
+const price = price_per_km * km;
 // const message = 'Non hai diritto alla scontistica'--> Per perfezionare l'esercizio mettendo in stampa la lista dei calcoli e l'importo al centro
 
 if (age > 18 && age < 65) {
